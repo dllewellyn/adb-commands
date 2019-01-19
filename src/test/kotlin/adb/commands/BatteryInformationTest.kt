@@ -6,9 +6,9 @@ package adb.commands
 import kotlin.test.Test
 import kotlin.test.assertTrue
 
-class LibraryTest {
+class BatteryInformationTest {
     @Test fun testSomeLibraryMethod() {
-        val classUnderTest = Library()
+        val classUnderTest = BatteryInformationParser()
         assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'")
     }
 }
