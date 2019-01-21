@@ -5,6 +5,8 @@ package adb.commands
 
 import kotlin.test.Test
 import kotlin.test.assertTrue
+import static org.mockito.Mockito.*;
+
 
 class BatteryInformationTest {
     @Test fun testSomeLibraryMethod() {
