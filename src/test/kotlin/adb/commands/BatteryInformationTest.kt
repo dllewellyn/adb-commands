@@ -11,4 +11,11 @@ class BatteryInformationTest {
         val classUnderTest = BatteryInformationParser()
         assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'")
     }
+    
+    @Test
+    fun `test that calling get battery stats information returns the correct data`() {
+        val state = "Current Battery Service state:\nAC powered: false\nUSB powered: true\nWireless powered: false\nstatus: 2\nhealth: 2\npresent: true\nlevel: 46\nscale: 100\nvoltage: 3696\ntemperature: 300\ntechnology: Li-poly"
+        
+        
+    }
 }
